@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "datasets>=5.0.1",
+    "fastapi>=0.142.2",
+    "mlflow>=3.16.1",
+    "pydantic-settings>=2.15.0",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+    "transformers>=5.18.0",
+    "uvicorn>=0.54.0",
+]
